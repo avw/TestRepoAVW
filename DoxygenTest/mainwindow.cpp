@@ -1,3 +1,4 @@
+//!  A test class.  /*!   A more elaborate class description. */
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 

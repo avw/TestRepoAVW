@@ -62,6 +62,7 @@ double Calculations::sum(double a, double b)
 //! The same way to give a short description as with ///
 /*!
   The same way as /** to give a extended description
+  \todo a recognized todo in the .c file ?
   */
 int Calculations::substract(int a, int b)
 {
@@ -72,10 +73,10 @@ int Calculations::substract(int a, int b)
       */
 }
 
-//! The same way to give a short description as with ///
+
 /*!
-  The same way as /** to give a extended description
-  \todo a recognized todo in the .c file ?
+  The same way as /** to give a extended description.
+  The extended descripton for this fucntion is put in the cpp file.
   */
 int Calculations::multiply(int a /**< [in] docs for input parameter v. */, int b)
 {
