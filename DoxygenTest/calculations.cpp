@@ -88,3 +88,12 @@ double Calculations::multiply(double a, double b)
 {
     return a*b;
 }
+
+/**
+  This is the extended description of the aFunctionAfterDefine function.
+  */
+        #ifdef A_DEFINE
+void Calculations::aFunctionAfterDefine(int theVariable)
+{
+}
+        #endif

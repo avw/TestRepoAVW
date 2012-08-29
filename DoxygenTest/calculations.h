@@ -27,6 +27,8 @@
 #ifndef CALCULATIONS_H
 #define CALCULATIONS_H
 
+#define A_DEFINE
+
 ///  A short description of the class Calculations (in the .h file).
 /**
   A more elaborate class description of the class Calculations
@@ -46,6 +48,10 @@ public:
     double multiply(double, double);
     /// the short description of aVeryDifficultCalculation.
     void aVeryDifficultCalculation();
+    /// this is the short description of the aFunctionAfterDefine() function.
+        #ifdef A_DEFINE
+    void aFunctionAfterDefine(int);
+        #endif
 
 private:
     int result; ///< a int where you can store the results of the calculations.
